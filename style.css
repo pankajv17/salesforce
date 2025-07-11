@@ -1,0 +1,307 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+  background: white;
+align-items: center;
+justify-content:space-around;
+}
+#logo{
+    height: 70%;
+  margin: 25px;
+
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#contactdetail{
+    margin-top: 10px;
+   
+    font-weight:normal;
+}
+.icon{
+padding: 10px;
+border-radius: 50%;
+}
+.icon:hover{
+    background: lightblue;
+}
+#login{
+   padding: 10px;
+   border-radius: 50%;
+   display: flex;
+}
+#login:hover{
+    background: lightblue;
+}
+#try{
+    color: white;
+   background-color: green;
+   padding: 10px 20px;
+}
+#try:hover{
+    background-color: rgb(1, 60, 1);
+    
+}
+.texts{  
+  font-weight:bolder;
+      color: rgba(3, 3, 90, 0.915);
+   display: flex;
+}
+.texts:hover{
+    color: rgb(11, 187, 246);
+}
+#fakeheader{
+    height: 15%;
+    width: 100%;
+    background:white;
+    
+}
+#page1{
+    height: 85%;
+    width: 100%;
+   
+}
+#strip{
+    height: 8%;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+   justify-content: center;
+}
+#strip p{
+
+font-weight: bolder;
+margin-right: 20px;
+}
+#heading{
+   
+    height: 12%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(1, 1, 98);
+}
+#heading h1{
+    font-weight: 600;
+}
+#box1 h1{
+    font-weight: 600;
+    color: rgb(2, 2, 92);
+    font-size: 50px;
+    margin: 30px 10px;
+}
+#box1 p{
+    font-size:x-large;
+    margin: 10px;
+    font-weight:normal;
+}
+
+#butn{
+    display: flex;
+}
+#butn1{
+    text-align: center;
+    width: 20%;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(66, 84, 243);
+    margin-right: 70px;
+    border-color:rgb(66, 84, 243) ;
+   
+    
+}
+#butn1:hover{
+    background-color: darkblue;
+    border-color:darkblue ;
+}
+#butn2{
+    text-align: center;
+    width: 20%;
+    padding: 10px 20px;
+    color: rgb(70, 65, 213);
+   
+    border: 2px solid rgb(84, 113, 244);
+}
+#butn2:hover{
+    color:black;
+    background: rgb(220, 240, 247);
+    border-color: black;
+}
+#content{
+    height: 76%;
+    width: 100%;
+    display: flex;
+}
+#box1{
+    height: 83%;
+    width: 50%;
+    background-color:white;  
+    margin: 10px;
+}
+#box2{
+    height: 90%;
+    width: 50%;
+    background-color: rgb(237, 19, 139);  
+    margin: 10px;
+}
+
+#box2 img{
+    height: 100%;
+    width: 100%;
+object-fit: cover;
+}
+#page2{
+    height: 85%;
+    width: 100%;
+}
+
+.card{
+    border: .1px rgb(82, 81, 81) solid;
+    border-radius: 5%;
+}
+#cards{
+    height: 100%;
+    width: 100%;
+   display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#card1 {
+    height: 80%;
+    width: 45%;
+ margin: 20px;
+margin-left: 50px;
+    border-radius: 15px ;  
+
+}
+#card1 img{
+    height: 38%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px ;
+}
+#card1 h3{
+    margin-top: 15%;
+    margin-left: 10%;
+    color: rgb(2, 2, 105);
+}
+#card1 p{
+    margin-top: 6%;
+    margin-left: 10%;
+    color: #464545;
+}
+#card1 h4{
+    margin-top: 25%;
+    margin-left: 10%;
+    color: rgb(2, 2, 105);
+}
+#card2{
+    height: 80%;
+    width:45%;
+    margin: 15px;
+    border-radius: 15px ;
+}
+#card2 img{
+    height: 38%;
+    width: 100%;
+    border: 15px;
+    object-fit: cover;
+    border-radius: 15px ;
+}
+#card2 h3{
+    margin-top: 15%;
+    margin-left: 10%;
+    color: rgb(2, 2, 105);
+}
+#card2 p{
+    margin-top: 6%;
+    margin-left: 10%;
+    color: #464545;
+}
+#card2 h4{
+    margin-top: 25%;
+    margin-left: 10%;
+    color: rgb(2, 2, 105);
+}
+#card3 {
+    height: 80%;
+    width: 45%;
+ margin: 20px;
+margin-left: 50px;
+    border-radius: 15px ;
+}
+#card3 img{
+    height: 38%;
+    width: 100%;
+    border: 15px;
+    object-fit: cover;
+    border-radius: 15px ;
+}
+#card3 h3{
+    margin-top: 15%;
+    margin-left: 10%;
+    color: rgb(2, 2, 105);
+}
+#card3 p{
+    margin-top: 6%;
+    margin-left: 10%;
+    color: #464545;
+}
+#card3 h4{
+    margin-top: 25%;
+    margin-left: 10%;
+    color: rgb(2, 2, 105);
+}
+#card4 {
+    height: 80%;
+    width:45%;
+margin:20px;
+margin-right: 50px;
+    border-radius: 15px ;
+   
+}
+#card4 img{
+    height: 38%;
+    width: 100%;
+    border: 15px;
+
+    object-fit: cover;
+    border-radius: 15px ;
+}
+#card4 h3{
+    margin-top: 15%;
+    margin-left: 10%;
+    color: rgb(2, 2, 105);
+}
+#card4 p{
+    margin-top: 6%;
+    margin-left: 10%;
+    color: #464545;
+}
+#card4 h4{
+    margin-top: 25%;
+    margin-left: 10%;
+    color: rgb(2, 2, 105);
+}
